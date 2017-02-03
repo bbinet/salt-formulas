@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'test-kitchen'
+gem 'kitchen-docker'
+gem 'kitchen-inspec'
+gem 'kitchen-sync'
+gem 'inspec'
+gem 'kitchen-salt', '>=0.0.25'
+
+# vi: set ft=ruby :

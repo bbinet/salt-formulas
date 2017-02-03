@@ -1,0 +1,16 @@
+sudo: required
+services:
+  - docker
+
+install:
+  - pip install PyYAML
+  - pip install virtualenv
+  - test ! -e Gemfile || bundle install
+  #- pip install gitshelf
+  #- gitshelf install
+
+before_script:
+  - make test
+
+script:
+  - bundle exec kitchen test
