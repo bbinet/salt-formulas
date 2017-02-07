@@ -369,10 +369,6 @@ checkout = git_checkout swift
 skip = lazy
 checkout = git_checkout kubernetes
 
-[formulas/avinetworks]
-skip = lazy
-checkout = git_checkout avinetworks
-
 [formulas/decapod]
 skip = lazy
 checkout = git_checkout decapod
